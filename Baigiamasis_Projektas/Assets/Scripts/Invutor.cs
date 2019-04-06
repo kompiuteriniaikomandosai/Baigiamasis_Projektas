@@ -6,7 +6,7 @@ public class Invutor : MonoBehaviour {
     public Sprite bottleImg;
     public Sprite defaultImg;
     public slot[] slots;
-    public Troskulis troskulis;
+    public Busena busena;
 
 
 	void Start () {
@@ -39,10 +39,10 @@ public class Invutor : MonoBehaviour {
     {
         if(slots[i].itemName == "Bottle")
         {
-            if (troskulis.Truskolis + 50 < 100)
-                troskulis.Truskolis += 50;
+            if (busena.Truskolis + 50 < 100)
+                busena.Truskolis += 50;
             else
-                troskulis.Truskolis = 100;
+                busena.Truskolis = 100;
 
             slots[i].slotTaken = false;
             slots[i].slotItem.sprite = defaultImg;
