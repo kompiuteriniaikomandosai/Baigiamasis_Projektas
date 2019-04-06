@@ -7,7 +7,7 @@ public class playermovement : MonoBehaviour
     public float speed = 1;
     public float maxForwardSpeed;
     public float timer;
-    public float time =0;
+    //public float time =0;
    
     // Use this for initialization
     void Start()
