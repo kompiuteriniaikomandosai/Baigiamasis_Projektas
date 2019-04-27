@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3eaed01f87f431e48a5003d45610015e
+timeCreated: 1556365076
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ZCOOL KuaiLe
+  fontNames:
+  - ZCOOL KuaiLe
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
