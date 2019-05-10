@@ -16,28 +16,39 @@ public class Invutor : MonoBehaviour {
 	
 	void Update () {
 
-        if (Input.GetKeyDown(KeyCode.Q))
+
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "WaterBottle")
         {
             int j = 0;
-            while( j < slots.Length)
+           
+            while (j < slots.Length)
             {
-                if(slots[j].slotTaken == false)
+                if (slots[j].slotTaken == false)
                 {
                     slots[j].slotTaken = true;
                     slots[j].slotItem.sprite = bottleImg;
                     slots[j].itemName = "Bottle";
+                    Destroy(col.gameObject);
                     break;
                     //Tikrina ar slotas yra uzimtas
                 }
-
+             
                 j++;
+              
             }
 
-         
+
+           
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+
+        if (col.tag == "Apple")
         {
+
             int e = 0;
             while (e < slots.Length)
             {
@@ -46,15 +57,24 @@ public class Invutor : MonoBehaviour {
                     slots[e].slotTaken = true;
                     slots[e].slotItem.sprite = AppleImg;
                     slots[e].itemName = "Apple";
+                    Destroy(col.gameObject);
                     break;
                     //Tikrina ar slotas yra uzimtas
                 }
-
+                
                 e++;
+               
             }
+            
         }
 
-    }   
+
+    }
+
+   
+
+ 
+
 
     public void UseInventoryItem(int i)
     {
