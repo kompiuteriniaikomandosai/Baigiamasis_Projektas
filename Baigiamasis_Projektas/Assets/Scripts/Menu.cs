@@ -32,4 +32,17 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene(2);
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "HouseDoors")
+        {
+            GoHouse();
+        }
+            
+    }
+    public void GoHouse()
+    {
+        SceneManager.LoadScene(5);
+    }
 }

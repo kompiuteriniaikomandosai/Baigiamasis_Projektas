@@ -12,17 +12,30 @@ public class Busena : MonoBehaviour {
     public Image troskolisImg;
     public Image alkisImg;
     public Image hpImg;
-    
 
+    public Animator tutorial;
+
+    public GameObject boom;
+
+   // int times = 0;
+   // public GameObject[] tutorialTexts;
     void Start () {
         InvokeRepeating("RemoveThirst", 1.5F,1.5F);
         //Kas 1.5 sekundes nuemame troskuli po viena karta
         InvokeRepeating("RemoveAlkis", 3.5F, 3.5F);
         //Kas 1.5 sekundes nuemame Alki po viena karta
 
-      
-        
+        //PlayerPrefs.DeleteAll();
+
+        if (!PlayerPrefs.HasKey("Watched"))
+        {
+            tutorial.SetBool("watch", true);
+            PlayerPrefs.SetInt("Watched", 1);
+        }
     }
+    
+
+   
 
     void RemoveThirst()
     {
@@ -62,6 +75,7 @@ public class Busena : MonoBehaviour {
 
         if (hp == 0)
         {
+            Instantiate(boom,transform.position,Quaternion.identity);
             Destroy(gameObject);
         }
 
