@@ -18,11 +18,11 @@ public class Menu : MonoBehaviour {
 
    public void PlayGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
     public void GoControls()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
     public void ExitGame()
     {
@@ -30,6 +30,19 @@ public class Menu : MonoBehaviour {
     }
     public void GoMenu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "HouseDoors")
+        {
+            GoHouse();
+        }
+            
+    }
+    public void GoHouse()
+    {
+        SceneManager.LoadScene(5);
     }
 }
