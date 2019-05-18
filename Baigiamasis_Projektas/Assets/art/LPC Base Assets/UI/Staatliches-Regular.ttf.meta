@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 93023aa8d69e0964bb7445de7f43ce53
+timeCreated: 1558183384
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Staatliches
+  fontNames:
+  - Staatliches
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

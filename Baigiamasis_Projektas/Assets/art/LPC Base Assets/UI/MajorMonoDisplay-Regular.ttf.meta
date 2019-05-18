@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5199719355e6a93449d83b32301fb2c9
+timeCreated: 1558183367
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Major Mono Display
+  fontNames:
+  - Major Mono Display
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
