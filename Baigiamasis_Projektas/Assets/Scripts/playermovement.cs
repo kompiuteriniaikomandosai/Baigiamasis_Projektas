@@ -8,7 +8,7 @@ public class playermovement : MonoBehaviour
     public float maxForwardSpeed;
     public float timer;
     //public float time =0;
-
+    public GameObject map;
  //   public GameObject helloText;
  //   public GameObject wasdText;
   //  public GameObject shiftTxt;
@@ -18,9 +18,11 @@ public class playermovement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-       // helloText.SetActive(true);
+        // helloText.SetActive(true);
 
-       // Invoke("OFF", 2);
+        // Invoke("OFF", 2);
+
+       // map.SetActive(true);
     }
 
     void OFF()
