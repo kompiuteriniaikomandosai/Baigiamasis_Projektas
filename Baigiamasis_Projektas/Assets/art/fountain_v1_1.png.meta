@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f23e1177476ae243badc2effbae5240
-timeCreated: 1558787639
+guid: 81cfbde8aac8bf945a06a3a4c5842c66
+timeCreated: 1558788137
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: arabic2_0
+    21300000: fountain_v1_1_0
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -71,16 +71,16 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arabic2_0
+      name: fountain_v1_1_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 176
-        width: 316
-        height: 240
+        x: 1
+        y: 137
+        width: 61
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 251, y: 0, z: 0, w: 163}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     outline: []
